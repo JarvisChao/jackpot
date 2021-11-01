@@ -19,6 +19,7 @@
 ```
 ## **Notice !**
 Record API 沒有給 id，所以只能抓預設 name 值，如果替換新的 api 而 name 值不同將顯現空白
+- Record API
 ```json
 {
   "location": "足球小將翼15號 恭賀24597珠 B區皇室",
@@ -28,7 +29,7 @@ Record API 沒有給 id，所以只能抓預設 name 值，如果替換新的 ap
 }
 ```
 
-預設 name 值:
+- 目前 js 寫死抓到的預設 name 值
 ```js
 const nameFilter = (val) => {
   const nameMap = {
